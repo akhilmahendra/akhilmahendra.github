@@ -1,0 +1,26 @@
+/* Font 1: Press Start 2P */
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('press-start-2p.woff2') format('woff2'),
+         url('press-start-2p.woff') format('woff');
+    /* Specify the correct paths to your font files */
+}
+
+/* Font 2: Nosifer */
+@font-face {
+    font-family: 'Nosifer';
+    src: url('nosifer.woff2') format('woff2'),
+         url('nosifer.woff') format('woff');
+    /* Specify the correct paths to your font files */
+}
+
+body {
+    font-family: 'Press Start 2P', 'Nosifer', sans-serif;
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
